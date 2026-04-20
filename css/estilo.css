@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.padre {
+    width: 100%;
+}
+
+
+.titulo, .pie {
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contenido {
+    display: flex;
+    margin: 5px;
+}
+
+.foto, .texto {
+    flex: 1;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.foto img {
+    max-width: 100%;
+    height: 100%;
+}
